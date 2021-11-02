@@ -1,0 +1,39 @@
+/*css resets*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+header span {
+    color: purple;
+    letter-spacing: 0.3em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 0.8em; 
+}
+
+ul li a {
+    text-decoration: none
+}
+
+section {
+    text-align: center;
+    background-color: darkgray;
+    height: 50vh;
+}
+
+section div {
+    padding-top: 6em;
+}
